@@ -8,7 +8,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "sass": "^1.49.9",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^2.2.19",
     "vite": "^2.8.0"
   }
 }
