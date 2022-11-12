@@ -26,3 +26,6 @@ dist-ssr
 # media images
 *.jpg
 *.png
+*.jpeg
+*.webp
+*.mp4
