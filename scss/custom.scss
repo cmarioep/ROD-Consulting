@@ -1,0 +1,16 @@
+$primary: #54893e;
+// $secondary: #626668;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+header {
+    display: none;
+}
+
+
+@include media-breakpoint-up(lg) {
+    header {
+        display: block;
+    }
+}
