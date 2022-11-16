@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./scss/custom.scss">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   <title>Vite App</title>
 </head>
 
@@ -72,7 +73,7 @@
   </header>
 
   <!-- NAVBAR -->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary fs-4 py-1">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary fs-4">
 
     <div class="container-fluid">
 
@@ -93,7 +94,7 @@
             <a class="nav-link active" href="#">Proyectos</a>
           </li>
           <li class="nav-item mx-4">
-            <a class="nav-link active" href="#">Conocenos</a>
+            <a class="nav-link active" href="#about">Conocenos</a>
           </li>
           <li class="nav-item mx-4">
             <a class="nav-link active" href="#">Contacto</a>
@@ -109,7 +110,7 @@
 
     <!-- HERO -->
     <section id="hero" class="hero hero-background min-vh-100 position-relative">
-      
+
       <video class="hero-video position-absolute" autoplay muted loop id="myVideo">
         <source src="./assets/img/background/compress.m4v" type="video/mp4">
       </video>
@@ -134,6 +135,67 @@
         </div>
       </div>
     </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section-padding">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-12 text-center">
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Quiénes somos</h1>
+              <div class="section-title-line"></div>
+              <p>We love to craft digital experiances for brands rather than crap and more lorem ipsums and do crazy
+                skills</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-6">
+            <img class="about-image" src="./assets/img/about.jpg" alt="A picture About us">
+          </div>
+
+          <div class="col-lg-5">
+
+            <div class="d-flex pt-4 mb-3">
+
+              <div class="iconbox me-4">
+                <i class="ri-mail-send-fill"></i>
+              </div>
+
+              <div>
+                <h5>We are Awesome</h5>
+                <p>Consectetur adipisicing elit. Corporis nesciunt aut temporibus!</p>
+              </div>
+
+            </div>
+
+            <div class="d-flex mb-3">
+              <div class="iconbox me-4">
+                <i class="ri-user-5-fill"></i>
+              </div>
+              <div>
+                <h5>We are Awesome</h5>
+                <p>Consectetur adipisicing elit. Corporis nesciunt aut temporibus!</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="iconbox me-4">
+                <i class="ri-rocket-2-fill"></i>
+              </div>
+              <div>
+                <h5>We are Awesome</h5>
+                <p>Consectetur adipisicing elit. Corporis nesciunt aut temporibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <section class="container-fluid min-vh-100" id="services">
       <ul>

@@ -1,11 +1,24 @@
 $primary: rgb(84, 137, 62);
-// $secondary: #626668;
+
+
+$navbar-heigh: 8vh;
+
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
+section {
+    min-height: 100vh;
+    // border: 1px solid red;
+}
 
 header {
     display: none;
+}
+
+
+
+.navbar {
+    height: $navbar-heigh;
 }
 
 
@@ -59,3 +72,54 @@ header {
         height: 100%;
     }
 }
+
+
+.section {
+
+    &-padding {
+        padding-top: $navbar-heigh;
+        padding-bottom: $navbar-heigh;
+    }
+
+    &-title {
+        margin-bottom: 3.75rem;
+
+        &-line {
+            width: 60px;
+            height: 4px;
+            background-color: $primary;
+            margin: 1rem auto 1.5rem auto;
+        }
+
+        p {
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+}
+
+.iconbox {
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba($primary, 0.1);
+    color: $primary;
+    font-size: 2.125rem;
+    flex: none;
+}
+
+.about {
+
+    &-image {
+        width: auto;
+        height: 50vh;
+    }
+
+
+}
+
+
