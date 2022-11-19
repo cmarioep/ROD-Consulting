@@ -1,22 +1,20 @@
 $primary: rgb(84, 137, 62);
-
-
 $navbar-heigh: 8vh;
 
 
+@use './components/' as *;
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 
-section {
-    min-height: 100vh;
-    padding-top: $navbar-heigh;
-    padding-bottom: $navbar-heigh;
-}
 
 header {
     display: none;
 }
 
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 
 .navbar {
@@ -28,6 +26,13 @@ header {
     header {
         display: block;
     }
+}
+
+
+section {
+    min-height: 100vh;
+    padding-top: $navbar-heigh;
+    padding-bottom: $navbar-heigh;
 }
 
 
@@ -90,12 +95,17 @@ header {
         }
 
         p {
-            max-width: 500px;
+            max-width: 640px;
             margin-left: auto;
             margin-right: auto;
         }
     }
 
+}
+
+
+.box-shadow {
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
 }
 
 
