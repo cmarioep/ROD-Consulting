@@ -30,7 +30,6 @@ body {
 
 
 section {
-    min-height: 100vh;
     padding-top: $navbar-heigh;
     padding-bottom: $navbar-heigh;
 }
@@ -106,7 +105,7 @@ section {
 
 /* COUNTER */
 .counter {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(84, 137, 62, 0.4)), url(../assets/img/counter.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(84, 137, 62, 0.6)), url(../assets/img/counter.jpg);
     background-position: center;
     background-size: cover;
 }
