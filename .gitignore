@@ -24,9 +24,9 @@ dist-ssr
 *.sw?
 
 # media images
-*.jpg
-*.png
-*.jpeg
-*.webp
-*.mp4
-*.m4v
+# *.jpg
+# *.png
+# *.jpeg
+# *.webp
+# *.mp4
+# *.m4v
