@@ -14,6 +14,7 @@ echo > .nojekyll
 
 # if you are deploying to a custom domain
 echo 'rodconsulting.co' > CNAME
+echo 'rodconsulting.com.co' > CNAME
 
 git init
 git checkout -B main
