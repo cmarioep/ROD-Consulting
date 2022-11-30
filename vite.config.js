@@ -1,6 +1,6 @@
 
 export default {
-  base: '/ROD-Consulting/',
+  base: '/',
   resolve: {
     alias: {
       '~bootstrap': './node_modules/bootstrap',
