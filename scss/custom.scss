@@ -52,6 +52,12 @@ img {
 }
 
 .header-logo {
+    display: none;
+
+    @include media-breakpoint-up(lg) {
+        display: block;
+    }
+
     img {
         width: auto;
         height: 100%;
@@ -97,8 +103,6 @@ img {
     font-weight: 500;
     color: var(--c-dark);
 }
-
-
 
 
 @include media-breakpoint-up(md) {
