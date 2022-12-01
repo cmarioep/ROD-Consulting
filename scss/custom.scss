@@ -5,6 +5,11 @@ $navbar-heigh: 8vh;
 @use './components/' as *;
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
+
+.btn {
+    min-width: 160px;
+}
+
 .btn-primary {
     --bs-btn-color: rgb(255, 255, 255);
     --bs-btn-hover-color: rgb(255, 255, 255);
@@ -57,7 +62,7 @@ section {
 
 .hero {
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(56, 72, 56, 0.4)), url('../assets/img//background//pexels-caio-45917.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(56, 72, 56, 0.5)), url('../assets/img//background//pexels-caio-45917.jpg');
     background-size: cover;
 
     @include media-breakpoint-up(md) {
