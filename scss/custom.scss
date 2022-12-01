@@ -5,7 +5,14 @@ $navbar-heigh: 8vh;
 @use './components/' as *;
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
-
+.btn-primary {
+    --bs-btn-color: rgb(255, 255, 255);
+    --bs-btn-hover-color: rgb(255, 255, 255);
+    --bs-btn-focus-shadow-rgb: 71, 116, 53;
+    --bs-btn-active-color: rgb(255, 255, 255);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: rgb(255, 255, 255);
+}
 
 header {
     display: none;
@@ -56,7 +63,7 @@ section {
     @include media-breakpoint-up(md) {
         background: unset;
     }
-    
+
     &-content {
         position: absolute;
         top: 50%;
