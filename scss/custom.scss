@@ -8,7 +8,9 @@ $navbar-heigh: 8vh;
 
 .bdg {
     border: 1px solid red;
+    
 }
+
 
 .btn {
     width: 195px;
@@ -54,12 +56,34 @@ img {
 
 .navbar {
     height: $navbar-heigh;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    &-collapse {
+        background-color: #6e9b5b;
+
+        @include media-breakpoint-up(lg) {
+            background-color: unset;
+        }
+    }
+
+
+    &-toggler {
+        height: $navbar-heigh;
+        border: none;
+
+        &:focus {
+            box-shadow: unset;
+        }
+    }
 }
 
 .navbar-nav .nav-link {
     font-weight: 500;
     color: var(--c-dark);
 }
+
+
 
 
 @include media-breakpoint-up(md) {
