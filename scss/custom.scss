@@ -6,8 +6,18 @@ $navbar-heigh: 8vh;
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 
+.bdg {
+    border: 1px solid red;
+}
+
 .btn {
-    min-width: 160px;
+    width: 195px;
+    border-radius: 0;
+    padding: 10px 24px;
+
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
 .btn-primary {
@@ -46,6 +56,11 @@ img {
     height: $navbar-heigh;
 }
 
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: var(--c-dark);
+}
+
 
 @include media-breakpoint-up(md) {
     header {
@@ -55,7 +70,7 @@ img {
 
 
 section {
-    padding-top: $navbar-heigh;
+    padding-top: $navbar-heigh + 0.5vh;
     padding-bottom: $navbar-heigh;
 }
 
