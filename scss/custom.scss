@@ -64,6 +64,10 @@ img {
     padding-top: 0;
     padding-bottom: 0;
 
+    &-menu {
+        padding: 0;
+    }
+
     &-collapse {
         background-color: #6e9b5b;
 
@@ -71,7 +75,6 @@ img {
             background-color: unset;
         }
     }
-
 
     &-toggler {
         height: $navbar-heigh;
