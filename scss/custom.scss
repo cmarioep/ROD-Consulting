@@ -50,12 +50,36 @@ section {
 
 .hero {
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(84, 137, 62, 0.4)), url('../assets/img//background//pexels-caio-45917.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(56, 72, 56, 0.4)), url('../assets/img//background//pexels-caio-45917.jpg');
     background-size: cover;
 
     @include media-breakpoint-up(md) {
         background: unset;
     }
+    
+    &-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 80%;
+
+        @include media-breakpoint-up(md) {
+            top: 40%;
+        }
+
+        @include media-breakpoint-up(xxl) {
+            top: 45%;
+        }
+
+        &-logo {
+            width: 250px;
+            margin: 0 auto;
+        }
+
+    }
+
 
     &-video {
         display: none;
