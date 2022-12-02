@@ -303,7 +303,6 @@ footer {
     padding: 0.5rem;
 
     color: #170724;
-    border: 1px solid blue;
 
     --carousel-button-bg: #fff;
     --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%),
@@ -323,8 +322,8 @@ footer {
 
     width: 100%;
     aspect-ratio: 1/1;
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2));
 
-    border: 1px solid rgb(84, 137, 62);
 
     @include media-breakpoint-up(md) {
         width: 30%;
