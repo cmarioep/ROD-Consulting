@@ -135,8 +135,9 @@ section {
 .hero {
     overflow: hidden;
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(56, 72, 56, 0.5)), url('../assets/img/background/Background-1.jpg');
-    background-position: top left;
+    background-position: 30% 60%;
     background-size: cover;
+    background-repeat: no-repeat;
 
     @include media-breakpoint-up(md) {
         background: unset;
