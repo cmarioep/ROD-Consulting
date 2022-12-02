@@ -6,6 +6,7 @@ $navbar-heigh: 8vh;
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 
+
 .bdg {
     border: 1px solid red;
     
@@ -30,6 +31,19 @@ $navbar-heigh: 8vh;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: rgb(255, 255, 255);
 }
+
+
+* {
+    font-smooth: always;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+html,
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
 
 h1, h2, h3,h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -113,7 +127,7 @@ img {
 
 
 section {
-    padding-top: $navbar-heigh + 0.5vh;
+    padding-top: $navbar-heigh + 1vh;
     padding-bottom: $navbar-heigh;
 }
 
