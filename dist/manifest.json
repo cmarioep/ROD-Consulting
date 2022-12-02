@@ -1,0 +1,66 @@
+{
+  "assets/Imagotipo--300.png": {
+    "file": "assets/Imagotipo--300.png",
+    "src": "assets/Imagotipo--300.png"
+  },
+  "assets/img/background/compress.m4v": {
+    "file": "assets/compress.m4v",
+    "src": "assets/img/background/compress.m4v"
+  },
+  "assets/Isotipo--300.png": {
+    "file": "assets/Isotipo--300.png",
+    "src": "assets/Isotipo--300.png"
+  },
+  "assets/img/about.jpg": {
+    "file": "assets/about.jpg",
+    "src": "assets/img/about.jpg"
+  },
+  "assets/img/project-1.jpg": {
+    "file": "assets/project-1.jpg",
+    "src": "assets/img/project-1.jpg"
+  },
+  "assets/img/project-2.jpg": {
+    "file": "assets/project-2.jpg",
+    "src": "assets/img/project-2.jpg"
+  },
+  "assets/img/project-3.jpg": {
+    "file": "assets/project-3.jpg",
+    "src": "assets/img/project-3.jpg"
+  },
+  "assets/img/project-4.jpg": {
+    "file": "assets/project-4.jpg",
+    "src": "assets/img/project-4.jpg"
+  },
+  "assets/img/project-5.jpg": {
+    "file": "assets/project-5.jpg",
+    "src": "assets/img/project-5.jpg"
+  },
+  "assets/img/project-6.jpg": {
+    "file": "assets/project-6.jpg",
+    "src": "assets/img/project-6.jpg"
+  },
+  "assets/img/background/Background-1.jpg": {
+    "file": "assets/Background-1.jpg",
+    "src": "assets/img/background/Background-1.jpg"
+  },
+  "assets/img/counter.jpg": {
+    "file": "assets/counter.jpg",
+    "src": "assets/img/counter.jpg"
+  },
+  "index.html": {
+    "file": "assets/index.389f25f6.js",
+    "src": "index.html",
+    "isEntry": true,
+    "css": [
+      "assets/index.css"
+    ],
+    "assets": [
+      "assets/Background-1.jpg",
+      "assets/counter.jpg"
+    ]
+  },
+  "index.css": {
+    "file": "assets/index.css",
+    "src": "index.css"
+  }
+}
