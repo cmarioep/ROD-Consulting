@@ -39,13 +39,37 @@
     "file": "assets/project-6.jpg",
     "src": "assets/img/project-6.jpg"
   },
-  "assets/img/background/Background-1.jpg": {
-    "file": "assets/Background-1.jpg",
-    "src": "assets/img/background/Background-1.jpg"
+  "assets/img/Logo-Mimos.png": {
+    "file": "assets/Logo-Mimos.png",
+    "src": "assets/img/Logo-Mimos.png"
+  },
+  "assets/img/Logo-Desigual.png": {
+    "file": "assets/Logo-Desigual.png",
+    "src": "assets/img/Logo-Desigual.png"
+  },
+  "assets/img/Logo-Volkswagen.png": {
+    "file": "assets/Logo-Volkswagen.png",
+    "src": "assets/img/Logo-Volkswagen.png"
+  },
+  "assets/img/Logo-NutriLight.png": {
+    "file": "assets/Logo-NutriLight.png",
+    "src": "assets/img/Logo-NutriLight.png"
+  },
+  "assets/img/Logo-M3.png": {
+    "file": "assets/Logo-M3.png",
+    "src": "assets/img/Logo-M3.png"
+  },
+  "assets/img/Logo-Adidas.png": {
+    "file": "assets/Logo-Adidas.png",
+    "src": "assets/img/Logo-Adidas.png"
   },
   "assets/img/counter.jpg": {
     "file": "assets/counter.jpg",
     "src": "assets/img/counter.jpg"
+  },
+  "assets/img/background/Background-1.jpg": {
+    "file": "assets/Background-1.jpg",
+    "src": "assets/img/background/Background-1.jpg"
   },
   "index.html": {
     "file": "assets/index.389f25f6.js",
