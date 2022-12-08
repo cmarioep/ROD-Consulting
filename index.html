@@ -1,456 +1,447 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-        <link rel="stylesheet" href="./scss/custom.scss">
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        <link rel="stylesheet" href="./node_modules/@fancyapps/ui/dist/fancybox.css">
-        <title>Vite App</title>
-    </head>
-    <body>
-      
-        <!-- HEADER -->
-        <header class="py-2">
-            <div class="container-fluid fs-6">
-                <div class="row">
-                    <div class="header-logo col-lg-5 position-relative">
-                        <img class="position-absolute top-50 start-50 translate-middle" src="./assets/Imagotipo--300.png" alt="Imagotipo ROD Consulting">
-                    </div>
-                    <div class="col-lg-3 col-md-6 h-50">
-                        <div class="row g-0 py-3">
-                            <div class="col-md-3 d-flex justify-content-center align-items-center">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="28"
-                                    height="28"
-                                    fill="currentColor"
-                                    class="bi bi-whatsapp"
-                                    viewBox="0 0 16 16"
-                                >
-                                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-                                </svg>
-                            </div>
-                            <div class="col-md-9">
-                                <p class="m-0">Llámanos</p>
-                                <a class="m-0" href="tel:+573188737324">+57 3188737324</a>
-                            </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="./scss/custom.scss">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/@fancyapps/ui/dist/fancybox.css">
+    <title>Vite App</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="py-2">
+        <div class="container-fluid fs-6">
+            <div class="row">
+                <div class="header-logo col-lg-5 position-relative">
+                    <img class="position-absolute top-50 start-50 translate-middle" src="./assets/Imagotipo--300.png"
+                        alt="Imagotipo ROD Consulting">
+                </div>
+                <div class="col-lg-3 col-md-6 h-50">
+                    <div class="row g-0 py-3">
+                        <div class="col-md-3 d-flex justify-content-center align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                                class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                            </svg>
+                        </div>
+                        <div class="col-md-9">
+                            <p class="m-0">Llámanos</p>
+                            <a class="m-0" href="tel:+573188737324">+57 3188737324</a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 h-50">
-                        <div class="row g-0 py-3">
-                            <div class="col-md-3 d-flex justify-content-center position-relative align-items-center">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="28"
-                                    height="28"
-                                    fill="currentColor"
-                                    class="bi bi-envelope-paper"
-                                    viewBox="0 0 16 16"
-                                >
-                                    <path d="M4 0a2 2 0 0 0-2 2v1.133l-.941.502A2 2 0 0 0 0 5.4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.4a2 2 0 0 0-1.059-1.765L14 3.133V2a2 2 0 0 0-2-2H4Zm10 4.267.47.25A1 1 0 0 1 15 5.4v.817l-1 .6v-2.55Zm-1 3.15-3.75 2.25L8 8.917l-1.25.75L3 7.417V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v5.417Zm-11-.6-1-.6V5.4a1 1 0 0 1 .53-.882L2 4.267v2.55Zm13 .566v5.734l-4.778-2.867L15 7.383Zm-.035 6.88A1 1 0 0 1 14 15H2a1 1 0 0 1-.965-.738L8 10.083l6.965 4.18ZM1 13.116V7.383l4.778 2.867L1 13.117Z"/>
-                                </svg>
-                            </div>
-                            <div class="col-md-9">
-                                <p class="m-0">Escríbenos</p>
-                                <a href="mailto:cotizaciones@rodconsulting.com">cotizaciones@rodconsulting.com</a>
-                            </div>
+                </div>
+                <div class="col-lg-3 col-md-6 h-50">
+                    <div class="row g-0 py-3">
+                        <div class="col-md-3 d-flex justify-content-center position-relative align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                                class="bi bi-envelope-paper" viewBox="0 0 16 16">
+                                <path
+                                    d="M4 0a2 2 0 0 0-2 2v1.133l-.941.502A2 2 0 0 0 0 5.4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.4a2 2 0 0 0-1.059-1.765L14 3.133V2a2 2 0 0 0-2-2H4Zm10 4.267.47.25A1 1 0 0 1 15 5.4v.817l-1 .6v-2.55Zm-1 3.15-3.75 2.25L8 8.917l-1.25.75L3 7.417V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v5.417Zm-11-.6-1-.6V5.4a1 1 0 0 1 .53-.882L2 4.267v2.55Zm13 .566v5.734l-4.778-2.867L15 7.383Zm-.035 6.88A1 1 0 0 1 14 15H2a1 1 0 0 1-.965-.738L8 10.083l6.965 4.18ZM1 13.116V7.383l4.778 2.867L1 13.117Z" />
+                            </svg>
+                        </div>
+                        <div class="col-md-9">
+                            <p class="m-0">Escríbenos</p>
+                            <a href="mailto:cotizaciones@rodconsulting.com">cotizaciones@rodconsulting.com</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <!-- NAVBAR -->
-        <nav class="navbar sticky-top box-shadow navbar-expand-lg navbar-dark bg-primary fs-4">
-            <div class="navbar-menu container-fluid">
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item mx-4">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item mx-4 border-top">
-                            <a class="nav-link active" href="#about">Conocenos</a>
-                        </li>
-                        <li class="nav-item mx-4 border-top">
-                            <a class="nav-link active" href="#services">Servicios</a>
-                        </li>
-                        <li class="nav-item mx-4 border-top">
-                            <a class="nav-link active" href="#projects">Proyectos</a>
-                        </li>
-                        <li class="nav-item mx-4 border-top">
-                            <a class="nav-link active" href="#contact">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+    <!-- NAVBAR -->
+    <nav class="navbar sticky-top box-shadow navbar-expand-lg navbar-dark bg-primary fs-4">
+        <div class="navbar-menu container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-4">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-4 border-top">
+                        <a class="nav-link active" href="#about">Conocenos</a>
+                    </li>
+                    <li class="nav-item mx-4 border-top">
+                        <a class="nav-link active" href="#services">Servicios</a>
+                    </li>
+                    <li class="nav-item mx-4 border-top">
+                        <a class="nav-link active" href="#projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item mx-4 border-top">
+                        <a class="nav-link active" href="#contact">Contacto</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-        <main>
-            <!-- HERO -->
-            <section id="hero" class="hero hero-background min-vh-100 position-relative">
-              
-                <video
-                    class="hero-video position-absolute"
-                    autoplay
-                    muted
-                    loop
-                    id="myVideo"
-                >
-                    <source src="./assets/img/background/compress.m4v" type="video/mp4">
-                </video>
+    <main>
+        <!-- HERO -->
+        <section id="hero" class="hero hero-background min-vh-100 position-relative">
 
-                <div class="hero-video-filter"></div>
-                <div class="hero-content text-center">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="hero-content-logo col-12">
-                                <img src="./assets/Isotipo--300.png" alt="Imagotipo ROD Consulting">
-                            </div>
-                            <div class="col-12">
-                                <h1 class="hero-title text-uppercase fw-semibold display-1 text-white">ROD CONSULTING</h1>
-                                <h5 class="mt-3 mb-4 text-white">Ingeniería Eléctrica, Diseño, Construcción y Consultoría</h5>
-                                <div>
-                                    <a href="#services" class="btn btn-primary m-2">Servicios</a>
-                                    <a href="https://wa.link/rftxys" class="btn btn-primary m-2">Contáctenos</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <video class="hero-video position-absolute" autoplay muted loop id="myVideo">
+                <source src="./assets/img/background/compress.m4v" type="video/mp4">
+            </video>
 
-            <!-- ABOUT -->
-            <section id="about" class="min-vh-100">
-                <div class="container">
+            <div class="hero-video-filter"></div>
+            <div class="hero-content text-center">
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
-                            <div class="section-title">
-                                <h1 class="display-4 fw-semibold">Quiénes somos</h1>
-                                <div class="section-title-line"></div>
-                                <p>
-                                    We love to craft digital experiances for brands rather than crap and more lorem ipsums and do crazy
-                skills
+                        <div class="hero-content-logo col-12">
+                            <img src="./assets/Isotipo--300.png" alt="Imagotipo ROD Consulting">
+                        </div>
+                        <div class="col-12">
+                            <h1 class="hero-title text-uppercase fw-semibold display-1 text-white">ROD CONSULTING</h1>
+                            <h5 class="mt-3 mb-4 text-white">Ingeniería Eléctrica, Diseño, Construcción y Consultoría
+                            </h5>
+                            <div>
+                                <a href="#services" class="btn btn-primary m-2">Servicios</a>
+                                <a href="https://wa.link/rftxys" class="btn btn-primary m-2">Contáctenos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="min-vh-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+                        <div class="section-title">
+                            <h1 class="display-4 fw-semibold">Quiénes somos</h1>
+                            <div class="section-title-line"></div>
+                            <p>
+                                We love to craft digital experiances for brands rather than crap and more lorem ipsums
+                                and do crazy
+                                skills
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6" data-aos="fade-down" data-aos-delay="50">
+                        <img class="about-image" src="./assets/img/about.jpg" alt="A picture About us">
+                    </div>
+                    <div class="col-lg-5" data-aos="fade-down" data-aos-delay="100">
+                        <div class="d-flex pt-4 mb-3">
+                            <div class="iconbox me-4">
+                                <i class="ri-mail-send-fill"></i>
+                            </div>
+                            <div>
+                                <h5>LO QUE HACEMOS</h5>
+                                <p>Diseñamos y construimos instalaciones eléctricas a altura de los retos de ingeniera y
+                                    cuidado del medio ambiente del siglo XXI que se adaptan las necesidades particulares
+                                    de cada proyecto.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <div class="iconbox me-4">
+                                <i class="ri-user-5-fill"></i>
+                            </div>
+                            <div>
+                                <h5>NUESTRO COMPROMISO</h5>
+                                <p>Crear soluciones eficientes, enfocadas en el uso racional de la energía, priorizando el
+                                    cuidado de los recursos económicos, humanos y naturales.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="iconbox me-4">
+                                <i class="ri-rocket-2-fill"></i>
+                            </div>
+                            <div>
+                                <h5>NUESTRO EQUIPO DE TRABAJO</h5>
+                                <p>Contamos con un equipo altamente calificado que compromete toda su capacidad creativ
+                                    y operativa para alcanzar las metas propuestas por nuestros clientes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section id="services" class="min-vh-100 border-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+                        <div class="section-title">
+                            <h1 class="display-4 fw-semibold">Portafolio de Servicios</h1>
+                            <div class="section-title-line"></div>
+                            <p>¿Tienes un proyecto en el que podamos ayudar?</p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="service-card box-shadow p-lg-5 p-4" data-aos="fade-down" data-aos-delay="50">
+                                <div class="iconbox">
+                                    <i class="ri-pen-nib-fill"></i>
+                                </div>
+                                <!-- DISEÑO -->
+                                <h5 class="mt-4 mb-3">Diseño eléctrico residencial, comercial e Indusrial</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+                            <div class="service-card box-shadow p-lg-5 p-4">
+                                <div class="iconbox">
+                                    <i class="ri-pen-nib-fill"></i>
+                                </div>
+                                <!-- CONSTRUCCION -->
+                                <h5 class="mt-4 mb-3">Construcción de instalaciones eléctricas</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="250">
+                            <div class="service-card box-shadow p-lg-5 p-4">
+                                <div class="iconbox">
+                                    <i class="ri-pen-nib-fill"></i>
+                                </div>
+                                <!-- Consultoria -->
+                                <h5 class="mt-4 mb-3">Construcción de instalaciones eléctricas</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="350">
+                            <div class="service-card box-shadow p-lg-5 p-4">
+                                <div class="iconbox">
+                                    <i class="ri-pen-nib-fill"></i>
+                                </div>
+                                <!-- ESTUDIOS -->
+                                <h5 class="mt-4 mb-3">Estudios eléctricos, análisis y mediciones</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="450">
+                            <div class="service-card box-shadow p-lg-5 p-4">
+                                <div class="iconbox">
+                                    <i class="ri-pen-nib-fill"></i>
+                                </div>
+                                <!-- MANTENIMIENTO -->
+                                <h5 class="mt-4 mb-3">Mantenimiento de instalaciones y equipos</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="550">
+                            <div class="service-card box-shadow p-lg-5 p-4">
+                                <div class="iconbox">
+                                    <i class="ri-pen-nib-fill"></i>
+                                </div>
+                                <!-- COMUNICACIONES -->
+                                <h5 class="mt-4 mb-3">Smart home, comunicaciones, seguridad y CCTV.</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-lg-6" data-aos="fade-down" data-aos-delay="50">
-                            <img class="about-image" src="./assets/img/about.jpg" alt="A picture About us">
-                        </div>
-                        <div class="col-lg-5" data-aos="fade-down" data-aos-delay="100">
-                            <div class="d-flex pt-4 mb-3">
-                                <div class="iconbox me-4">
-                                    <i class="ri-mail-send-fill"></i>
-                                </div>
-                                <div>
-                                    <h5>We are Awesome</h5>
-                                    <p>Consectetur adipisicing elit. Corporis nesciunt aut temporibus!</p>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-3">
-                                <div class="iconbox me-4">
-                                    <i class="ri-user-5-fill"></i>
-                                </div>
-                                <div>
-                                    <h5>We are Awesome</h5>
-                                    <p>Consectetur adipisicing elit. Corporis nesciunt aut temporibus!</p>
-                                </div>
-                            </div>
-                            <div class="d-flex">
-                                <div class="iconbox me-4">
-                                    <i class="ri-rocket-2-fill"></i>
-                                </div>
-                                <div>
-                                    <h5>We are Awesome</h5>
-                                    <p>Consectetur adipisicing elit. Corporis nesciunt aut temporibus!</p>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- COUNTER -->
+        <section id="counter" class="counter">
+            <div class="container text-center">
+                <div class="row g-4">
+                    <div class="col-sm-4" data-aos="fade-down" data-aos-delay="50">
+                        <h1 class="text-white display-4">100%</h1>
+                        <h6 class="text-uppercase mb-0 text-white mt-3">Excelencia y calidad</h6>
+                    </div>
+                    <div class="col-sm-4" data-aos="fade-down" data-aos-delay="150">
+                        <h1 class="text-white display-4">500+</h1>
+                        <h6 class="text-uppercase mb-0 text-white mt-3">Proyectos Exitosos</h6>
+                    </div>
+                    <div class="col-sm-4" data-aos="fade-down" data-aos-delay="250">
+                        <h1 class="text-white display-4">10+</h1>
+                        <h6 class="text-uppercase mb-0 text-white mt-3">Años de Experiencia</h6>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- SERVICES -->
-            <section id="services" class="min-vh-100 border-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
-                            <div class="section-title">
-                                <h1 class="display-4 fw-semibold">Portafolio de Servicios</h1>
-                                <div class="section-title-line"></div>
-                                <p>¿Tienes un proyecto en el que podamos ayudar?</p>
-                            </div>
-                        </div>
-                        <div class="row text-center">
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="service-card box-shadow p-lg-5 p-4" data-aos="fade-down" data-aos-delay="50">
-                                    <div class="iconbox">
-                                        <i class="ri-pen-nib-fill"></i>
-                                    </div>
-                                    <!-- DISEÑO -->
-                                    <h5 class="mt-4 mb-3">Diseño eléctrico residencial, comercial e Indusrial</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="150">
-                                <div class="service-card box-shadow p-lg-5 p-4">
-                                    <div class="iconbox">
-                                        <i class="ri-pen-nib-fill"></i>
-                                    </div>
-                                    <!-- CONSTRUCCION -->
-                                    <h5 class="mt-4 mb-3">Construcción de instalaciones eléctricas</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="250">
-                                <div class="service-card box-shadow p-lg-5 p-4">
-                                    <div class="iconbox">
-                                        <i class="ri-pen-nib-fill"></i>
-                                    </div>
-                                    <!-- Consultoria -->
-                                    <h5 class="mt-4 mb-3">Construcción de instalaciones eléctricas</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="350">
-                                <div class="service-card box-shadow p-lg-5 p-4">
-                                    <div class="iconbox">
-                                        <i class="ri-pen-nib-fill"></i>
-                                    </div>
-                                    <!-- ESTUDIOS -->
-                                    <h5 class="mt-4 mb-3">Estudios eléctricos, análisis y mediciones</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="450">
-                                <div class="service-card box-shadow p-lg-5 p-4">
-                                    <div class="iconbox">
-                                        <i class="ri-pen-nib-fill"></i>
-                                    </div>
-                                    <!-- MANTENIMIENTO -->
-                                    <h5 class="mt-4 mb-3">Mantenimiento de instalaciones y equipos</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="550">
-                                <div class="service-card box-shadow p-lg-5 p-4">
-                                    <div class="iconbox">
-                                        <i class="ri-pen-nib-fill"></i>
-                                    </div>
-                                    <!-- COMUNICACIONES -->
-                                    <h5 class="mt-4 mb-3">Smart home, comunicaciones, seguridad y CCTV.</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat sunt distinctio?</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- COUNTER -->
-            <section id="counter" class="counter">
-                <div class="container text-center">
-                    <div class="row g-4">
-                        <div class="col-sm-4" data-aos="fade-down" data-aos-delay="50">
-                            <h1 class="text-white display-4">100%</h1>
-                            <h6 class="text-uppercase mb-0 text-white mt-3">Excelencia y calidad</h6>
-                        </div>
-                        <div class="col-sm-4" data-aos="fade-down" data-aos-delay="150">
-                            <h1 class="text-white display-4">500+</h1>
-                            <h6 class="text-uppercase mb-0 text-white mt-3">Proyectos Exitosos</h6>
-                        </div>
-                        <div class="col-sm-4" data-aos="fade-down" data-aos-delay="250">
-                            <h1 class="text-white display-4">10+</h1>
-                            <h6 class="text-uppercase mb-0 text-white mt-3">Años de Experiencia</h6>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- PROJECTS -->
-            <section id="projects">
-                <div class="container">
-                    <!-- SECTION TITLE -->
-                    <div class="row">
-                        <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
-                            <div class="section-title">
-                                <h1 class="display-4 fw-semibold">Proyectos Recientes</h1>
-                                <div class="line"></div>
-                                <p>Explore nuestro portafolio para ver algunos ejemplos de nuestros proyectos</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row g-4">
-                        <div class="col-md-4" data-aos="fade-down" data-aos-delay="100">
-                            <div class="portfolio-item image-zoom">
-                                <div class="image-zoom-wrapper">
-                                    <img src="./assets/img/project-1.jpg" alt="">
-                                </div>
-                                <a href="./assets/project-1.jpg" data-fancybox="gallery" class="iconbox">
-                                    <i class="ri-search-2-line"></i>
-                                </a>
-                            </div>
-                            <div class="portfolio-item image-zoom mt-4">
-                                <div class="image-zoom-wrapper">
-                                    <img src="./assets/img/project-2.jpg" alt="">
-                                </div>
-                                <a href="./assets/project-2.jpg" data-fancybox="gallery" class="iconbox">
-                                    <i class="ri-search-2-line"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-4" data-aos="fade-down" data-aos-delay="200">
-                            <div class="portfolio-item image-zoom">
-                                <div class="image-zoom-wrapper">
-                                    <img src="./assets/img/project-3.jpg" alt="">
-                                </div>
-                                <a href="./assets/project-3.jpg" data-fancybox="gallery" class="iconbox">
-                                    <i class="ri-search-2-line"></i>
-                                </a>
-                            </div>
-                            <div class="portfolio-item image-zoom mt-4">
-                                <div class="image-zoom-wrapper">
-                                    <img src="./assets/img/project-4.jpg" alt="">
-                                </div>
-                                <a href="./assets/project-4.jpg" data-fancybox="gallery" class="iconbox">
-                                    <i class="ri-search-2-line"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-4" data-aos="fade-down" data-aos-delay="300">
-                            <div class="portfolio-item image-zoom">
-                                <div class="image-zoom-wrapper">
-                                    <img src="./assets/img/project-5.jpg" alt="">
-                                </div>
-                                <a href="./assets/project-5.jpg" data-fancybox="gallery" class="iconbox">
-                                    <i class="ri-search-2-line"></i>
-                                </a>
-                            </div>
-                            <div class="portfolio-item image-zoom mt-4">
-                                <div class="image-zoom-wrapper">
-                                    <img src="./assets/img/project-6.jpg" alt="">
-                                </div>
-                                <a href="./assets/project-6.jpg" data-fancybox="gallery" class="iconbox">
-                                    <i class="ri-search-2-line"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- ClIENTES -->
-            <section class="border-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
-                            <div class="section-title">
-                                <h1 class="display-4 fw-semibold">Nuestros Clientes</h1>
-                                <div class="section-title-line"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        id="mainCarousel"
-                        class="carousel"
-                        data-aos="fade-down"
-                        data-aos-delay="100"
-                    >
-                        <div class="carousel__slide">
-                            <img src="./assets/img/Logo-Carlos-Nieto.png">
-                        </div>
-                        <div class="carousel__slide">
-                            <img src="./assets/img/Logo-Cole-Haan.png">
-                        </div>
-                        <div class="carousel__slide">
-                            <img src="./assets/img/Logo-Mimos.png">
-                        </div>
-                        <div class="carousel__slide">
-                            <img src="./assets/img/Logo-Desigual.png">
-                        </div>
-                        <div class="carousel__slide">
-                            <img src="./assets/img/Logo-Volkswagen.png">
-                        </div>
-                        <div class="carousel__slide">
-                            <img src="./assets/img/Logo-NutriLight.png">
-                        </div>
-                        <div class="carousel__slide">
-                            <img src="./assets/img/Logo-M3.png">
-                        </div>
-                        <div class="carousel__slide">
-                            <img src="./assets/img/Logo-Adidas.png">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        </main>
-
-        <!-- FOOTER -->
-        <footer id="contact" class="bg-dark text-white py-4">
-            <div class="footer-top mb-2">
-                <div class="container">
-                    <div class="row gy-5">
-                        <div class="col-lg-3 col-sm-6">
-                            <img src="./assets/Imagotipo--300.png" alt="Imagotipo ROD Consulting">
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <h5 class="mb-0">ROD CONSULTING</h5>
+        <!-- PROJECTS -->
+        <section id="projects">
+            <div class="container">
+                <!-- SECTION TITLE -->
+                <div class="row">
+                    <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+                        <div class="section-title">
+                            <h1 class="display-4 fw-semibold">Proyectos Recientes</h1>
                             <div class="line"></div>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores voluptatum ducimus est vel voluptates
-                            </p>
+                            <p>Explore nuestro portafolio para ver algunos ejemplos de nuestros proyectos</p>
                         </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <h5 class="mb-0">SERVICIOS</h5>
-                            <div class="line"></div>
-                            <ul>
-                                <li>Diseño</li>
-                                <li>Construcción</li>
-                                <li>Mantenimiento</li>
-                                <li>Consultoria</li>
-                                <li>Estudios, Análisis y mediciones</li>
-                            </ul>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4" data-aos="fade-down" data-aos-delay="100">
+                        <div class="portfolio-item image-zoom">
+                            <div class="image-zoom-wrapper">
+                                <img src="./assets/img/project-1.jpg" alt="">
+                            </div>
+                            <a href="./assets/project-1.jpg" data-fancybox="gallery" class="iconbox">
+                                <i class="ri-search-2-line"></i>
+                            </a>
                         </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <h5 class="mb-0">CONTACTO</h5>
-                            <div class="line"></div>
-                            <ul>
-                                <li>Sabaneta - Antioquia</li>
-                                <li>+57 3188737324</li>
-                                <li>www.rodconsulting.co</li>
-                            </ul>
+                        <div class="portfolio-item image-zoom mt-4">
+                            <div class="image-zoom-wrapper">
+                                <img src="./assets/img/project-2.jpg" alt="">
+                            </div>
+                            <a href="./assets/project-2.jpg" data-fancybox="gallery" class="iconbox">
+                                <i class="ri-search-2-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-down" data-aos-delay="200">
+                        <div class="portfolio-item image-zoom">
+                            <div class="image-zoom-wrapper">
+                                <img src="./assets/img/project-3.jpg" alt="">
+                            </div>
+                            <a href="./assets/project-3.jpg" data-fancybox="gallery" class="iconbox">
+                                <i class="ri-search-2-line"></i>
+                            </a>
+                        </div>
+                        <div class="portfolio-item image-zoom mt-4">
+                            <div class="image-zoom-wrapper">
+                                <img src="./assets/img/project-4.jpg" alt="">
+                            </div>
+                            <a href="./assets/project-4.jpg" data-fancybox="gallery" class="iconbox">
+                                <i class="ri-search-2-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-down" data-aos-delay="300">
+                        <div class="portfolio-item image-zoom">
+                            <div class="image-zoom-wrapper">
+                                <img src="./assets/img/project-5.jpg" alt="">
+                            </div>
+                            <a href="./assets/project-5.jpg" data-fancybox="gallery" class="iconbox">
+                                <i class="ri-search-2-line"></i>
+                            </a>
+                        </div>
+                        <div class="portfolio-item image-zoom mt-4">
+                            <div class="image-zoom-wrapper">
+                                <img src="./assets/img/project-6.jpg" alt="">
+                            </div>
+                            <a href="./assets/project-6.jpg" data-fancybox="gallery" class="iconbox">
+                                <i class="ri-search-2-line"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom py-3">
-                <div class="container text-center">
-                    <p class="mb-0">ROD Consulting Ingenieria Eléctrica © 2022</p>
+        </section>
+
+        <!-- ClIENTES -->
+        <section class="border-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+                        <div class="section-title">
+                            <h1 class="display-4 fw-semibold">Nuestros Clientes</h1>
+                            <div class="section-title-line"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="container text-center">
-                    <p class="mb-0">Web design By
-                        <a href="https://github.com/cmarioep">@cmarioep</a>
-                    </p>
+                <div id="mainCarousel" class="carousel" data-aos="fade-down" data-aos-delay="100">
+                    <div class="carousel__slide">
+                        <img src="./assets/img/Logo-Carlos-Nieto.png">
+                    </div>
+                    <div class="carousel__slide">
+                        <img src="./assets/img/Logo-Cole-Haan.png">
+                    </div>
+                    <div class="carousel__slide">
+                        <img src="./assets/img/Logo-Mimos.png">
+                    </div>
+                    <div class="carousel__slide">
+                        <img src="./assets/img/Logo-Desigual.png">
+                    </div>
+                    <div class="carousel__slide">
+                        <img src="./assets/img/Logo-Volkswagen.png">
+                    </div>
+                    <div class="carousel__slide">
+                        <img src="./assets/img/Logo-NutriLight.png">
+                    </div>
+                    <div class="carousel__slide">
+                        <img src="./assets/img/Logo-M3.png">
+                    </div>
+                    <div class="carousel__slide">
+                        <img src="./assets/img/Logo-Adidas.png">
+                    </div>
                 </div>
             </div>
-        </footer>
+        </section>
 
-        <script type="module" src="/main.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </main>
 
-    </body>
+    <!-- FOOTER -->
+    <footer id="contact" class="bg-dark text-white py-4">
+        <div class="footer-top mb-2">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-3 col-sm-6">
+                        <img src="./assets/Imagotipo--300.png" alt="Imagotipo ROD Consulting">
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0">ROD CONSULTING</h5>
+                        <div class="line"></div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores voluptatum ducimus est vel
+                            voluptates
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0">SERVICIOS</h5>
+                        <div class="line"></div>
+                        <ul>
+                            <li>Diseño</li>
+                            <li>Construcción</li>
+                            <li>Mantenimiento</li>
+                            <li>Consultoria</li>
+                            <li>Estudios, Análisis y mediciones</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-0">CONTACTO</h5>
+                        <div class="line"></div>
+                        <ul>
+                            <li>Sabaneta - Antioquia</li>
+                            <li>+57 3188737324</li>
+                            <li>www.rodconsulting.co</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom py-3">
+            <div class="container text-center">
+                <p class="mb-0">ROD Consulting Ingenieria Eléctrica © 2022</p>
+            </div>
+            <div class="container text-center">
+                <p class="mb-0">Web design By
+                    <a href="https://github.com/cmarioep">@cmarioep</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
 </html>
