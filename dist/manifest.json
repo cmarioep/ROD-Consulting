@@ -63,13 +63,13 @@
     "file": "assets/Logo-Adidas.png",
     "src": "assets/img/Logo-Adidas.png"
   },
-  "assets/img/counter.jpg": {
-    "file": "assets/counter.jpg",
-    "src": "assets/img/counter.jpg"
-  },
   "assets/img/background/Background-1.jpg": {
     "file": "assets/Background-1.jpg",
     "src": "assets/img/background/Background-1.jpg"
+  },
+  "assets/img/counter.jpg": {
+    "file": "assets/counter.jpg",
+    "src": "assets/img/counter.jpg"
   },
   "index.html": {
     "file": "assets/index.389f25f6.js",
