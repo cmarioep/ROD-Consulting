@@ -4,12 +4,12 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import { Fancybox } from "@fancyapps/ui";
-import { Carousel } from './node_modules/@fancyapps/ui/src/Carousel/Carousel.js'
+// import { Carousel } from './node_modules/@fancyapps/ui/src/Carousel/Carousel.js'
 
 
-const mainCarousel = new Carousel(document.querySelector("#mainCarousel"), {
-  // Your options
-});
+// const mainCarousel = new Carousel(document.querySelector("#mainCarousel"), {
+//   // Your options
+// });
 
 AOS.init({
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
