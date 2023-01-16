@@ -39,13 +39,13 @@
     "file": "assets/project-6.jpg",
     "src": "assets/img/project-6.jpg"
   },
-  "assets/img/counter.jpg": {
-    "file": "assets/counter.jpg",
-    "src": "assets/img/counter.jpg"
-  },
   "assets/img/background/Background-1.jpg": {
     "file": "assets/Background-1.jpg",
     "src": "assets/img/background/Background-1.jpg"
+  },
+  "assets/img/counter.jpg": {
+    "file": "assets/counter.jpg",
+    "src": "assets/img/counter.jpg"
   },
   "index.html": {
     "file": "assets/index.169ff00f.js",
