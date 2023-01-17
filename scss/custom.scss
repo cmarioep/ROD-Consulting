@@ -9,7 +9,7 @@ $navbar-heigh: 8vh;
 
 .bdg {
     border: 1px solid red;
-    
+
 }
 
 
@@ -45,8 +45,18 @@ html:focus-within {
 }
 
 
-h1, h2, h3,h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
     font-weight: 600;
 }
 
@@ -110,7 +120,7 @@ img {
 .nav-item {
     @include media-breakpoint-up(lg) {
         border-top: 0 !important;
-    }    
+    }
 }
 
 .navbar-nav .nav-link {
@@ -304,6 +314,7 @@ section {
     top: 50%;
 }
 
+
 footer {
 
     font-size: 0.8rem;
@@ -320,6 +331,24 @@ footer {
         color: inherit;
     }
 }
+
+
+
+.whatsapp {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+
+    a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
 
 
 .carousel {
