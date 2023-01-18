@@ -2,6 +2,7 @@
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { observer } from './IntersectionObserver.js'
 
 import { Fancybox } from "@fancyapps/ui";
 // import { Carousel } from './node_modules/@fancyapps/ui/src/Carousel/Carousel.js'
@@ -21,3 +22,6 @@ AOS.init({
   mirror: false, // whether elements should animate out while scrolling past them
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 });
+
+const target = document.getElementById('about');
+observer.observe(target);

@@ -334,10 +334,15 @@ footer {
 
 
 
-.whatsapp {
+.whatsAppButtom {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
+
+    visibility: hidden;
+    transform: scale(0);
+    transition: all 0.3s ease-in;
+
 
     a {
         display: flex;
@@ -346,6 +351,11 @@ footer {
         align-items: center;
     }
 
+
+    &--visible {
+        visibility: visible;
+        transform: scale(1);
+    }
 
 }
 
