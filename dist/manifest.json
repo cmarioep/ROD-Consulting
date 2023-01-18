@@ -1,4 +1,8 @@
 {
+  "assets/Isotipo--300.png": {
+    "file": "assets/Isotipo--300.png",
+    "src": "assets/Isotipo--300.png"
+  },
   "assets/Imagotipo--300.png": {
     "file": "assets/Imagotipo--300.png",
     "src": "assets/Imagotipo--300.png"
@@ -6,10 +10,6 @@
   "assets/img/background/compress.m4v": {
     "file": "assets/compress.m4v",
     "src": "assets/img/background/compress.m4v"
-  },
-  "assets/Isotipo--300.png": {
-    "file": "assets/Isotipo--300.png",
-    "src": "assets/Isotipo--300.png"
   },
   "assets/img/about.jpg": {
     "file": "assets/about.jpg",
@@ -48,7 +48,7 @@
     "src": "assets/img/counter.jpg"
   },
   "index.html": {
-    "file": "assets/index.169ff00f.js",
+    "file": "assets/index.7d230b8b.js",
     "src": "index.html",
     "isEntry": true,
     "css": [
