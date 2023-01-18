@@ -144,7 +144,7 @@ section {
 
 .hero {
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(56, 72, 56, 0.5)), url('../assets/img/background/Background-1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(56, 72, 56, 0.5)), url('../../assets/img/background/Background-1.jpg');
     background-position: 30% 60%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -341,7 +341,7 @@ footer {
 
     visibility: hidden;
     transform: scale(0);
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 
 
     a {

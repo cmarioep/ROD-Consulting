@@ -1,16 +1,9 @@
 // import bootstrap from 'bootstrap';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { observer } from './IntersectionObserver.js'
+import './whatsAppButton.js';
 
 import { Fancybox } from "@fancyapps/ui";
-// import { Carousel } from './node_modules/@fancyapps/ui/src/Carousel/Carousel.js'
-
-
-// const mainCarousel = new Carousel(document.querySelector("#mainCarousel"), {
-//   // Your options
-// });
 
 AOS.init({
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
@@ -23,5 +16,4 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 });
 
-const target = document.getElementById('about');
-observer.observe(target);
+
