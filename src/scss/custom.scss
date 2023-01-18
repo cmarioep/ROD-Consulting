@@ -1,0 +1,389 @@
+$primary: rgb(84, 137, 62);
+$navbar-heigh: 8vh;
+
+
+@use './components/' as *;
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+
+.bdg {
+    border: 1px solid red;
+
+}
+
+
+.btn {
+    width: 195px;
+    border-radius: 0;
+    padding: 10px 24px;
+
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    --bs-btn-color: rgb(255, 255, 255);
+    --bs-btn-hover-color: rgb(255, 255, 255);
+    --bs-btn-focus-shadow-rgb: 71, 116, 53;
+    --bs-btn-active-color: rgb(255, 255, 255);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: rgb(255, 255, 255);
+}
+
+
+* {
+    font-smooth: always;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+html,
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-weight: 600;
+}
+
+header {
+    display: none;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.header-logo {
+    display: none;
+
+    @include media-breakpoint-up(lg) {
+        display: block;
+    }
+
+    img {
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+.navbar {
+    height: $navbar-heigh;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    &-menu {
+        padding: 0;
+    }
+
+    &-collapse {
+        background-color: #6e9b5b;
+
+        @include media-breakpoint-up(lg) {
+            background-color: unset;
+        }
+    }
+
+    &-toggler {
+        height: $navbar-heigh;
+        border: none;
+
+        &:focus {
+            box-shadow: unset;
+        }
+    }
+}
+
+
+.nav-item {
+    @include media-breakpoint-up(lg) {
+        border-top: 0 !important;
+    }
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: var(--c-dark);
+}
+
+
+@include media-breakpoint-up(md) {
+    header {
+        display: block;
+    }
+}
+
+
+section {
+    padding-top: $navbar-heigh + 1vh;
+    padding-bottom: $navbar-heigh;
+}
+
+
+.hero {
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(56, 72, 56, 0.5)), url('../assets/img/background/Background-1.jpg');
+    background-position: 30% 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include media-breakpoint-up(md) {
+        background: unset;
+    }
+
+    &-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 80%;
+
+        @include media-breakpoint-up(md) {
+            top: 40%;
+        }
+
+        @include media-breakpoint-up(xxl) {
+            top: 45%;
+        }
+
+        &-logo {
+            width: 200px;
+            margin: 0 auto;
+        }
+
+    }
+
+
+    &-video {
+        display: none;
+        top: 0;
+        z-index: -10;
+
+        @include media-breakpoint-up(md) {
+            display: block;
+        }
+
+        &-filter {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+            width: 100%;
+            height: 100vh;
+
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(84, 137, 62, 0.4));
+        }
+    }
+
+}
+
+
+
+@media (min-aspect-ratio: 16/9) {
+    .hero-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .hero-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+.section {
+
+
+    &-title {
+        margin-bottom: 2.75rem;
+
+        &-line {
+            width: 60px;
+            height: 4px;
+            background-color: $primary;
+            margin: 1rem auto 1.5rem auto;
+        }
+
+        p {
+            font-size: 1.5rem;
+            max-width: 640px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+}
+
+
+/* COUNTER */
+.counter {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(84, 137, 62, 0.6)), url(../assets/img/counter.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.box-shadow {
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+.iconbox {
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba($primary, 0.1);
+    color: $primary;
+    font-size: 2.125rem;
+    flex: none;
+}
+
+
+.about {
+
+    &-image {
+        width: auto;
+        height: 50vh;
+    }
+
+
+}
+
+/* IMAGE ZOOM */
+.image-zoom {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.image-zoom-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.image-zoom-wrapper img {
+    transition: all 0.5s ease;
+}
+
+.image-zoom:hover .image-zoom-wrapper img {
+    transform: scale(1.1);
+}
+
+
+/* PORTFOLIO */
+.portfolio-item .iconbox {
+    background-color: $primary;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.portfolio-item:hover .iconbox {
+    opacity: 1;
+    top: 50%;
+}
+
+
+footer {
+
+    font-size: 0.8rem;
+
+    .line {
+        width: 60px;
+        height: 4px;
+        background-color: $primary;
+        margin-top: 0.75rem;
+        margin-bottom: 1.5rem;
+    }
+
+    a {
+        color: inherit;
+    }
+}
+
+
+
+.whatsapp {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+
+    a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+
+
+.carousel {
+    padding: 0.5rem;
+
+    color: #170724;
+
+    --carousel-button-bg: #fff;
+    --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%),
+        0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+    --carousel-button-svg-width: 20px;
+    --carousel-button-svg-height: 20px;
+
+    --carousel-button-svg-stroke-width: 2.5;
+
+}
+
+
+#mainCarousel .carousel__slide {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    aspect-ratio: 1/1;
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2));
+
+
+    @include media-breakpoint-up(md) {
+        width: 30%;
+
+    }
+
+    @include media-breakpoint-up(lg) {
+        width: 20%;
+
+    }
+}
