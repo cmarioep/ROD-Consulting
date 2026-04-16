@@ -1,8 +1,8 @@
 const services = [
   {
     num: '01',
-    name: 'Diseno Electrico',
-    desc: 'Proyectos residenciales, comerciales e industriales. Planos, memorias de calculo y gestion de permisos ante organismos competentes.',
+    name: 'Diseño Eléctrico',
+    desc: 'Proyectos residenciales, comerciales e industriales. Planos, memorias de cálculo y gestión de permisos ante organismos competentes.',
     icon: (
       <svg viewBox="0 0 24 24" width="22" height="22">
         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
@@ -15,8 +15,8 @@ const services = [
   },
   {
     num: '02',
-    name: 'Construccion de Instalaciones',
-    desc: 'Ejecucion de obras electricas con altos estandares de calidad y cumplimiento normativo RETIE/NTC en todo tipo de edificaciones.',
+    name: 'Construcción de Instalaciones',
+    desc: 'Ejecución de obras eléctricas con altos estándares de calidad y cumplimiento normativo RETIE/NTC en todo tipo de edificaciones.',
     icon: (
       <svg viewBox="0 0 24 24" width="22" height="22">
         <rect x="2" y="3" width="20" height="14" rx="2" />
@@ -28,8 +28,8 @@ const services = [
   },
   {
     num: '03',
-    name: 'Consultoria Tecnica',
-    desc: 'Asesoria experta para toma de decisiones estrategicas, optimizacion de sistemas existentes y evaluacion de proyectos electricos.',
+    name: 'Consultoría Técnica',
+    desc: 'Asesoría experta para toma de decisiones estratégicas, optimización de sistemas existentes y evaluación de proyectos eléctricos.',
     icon: (
       <svg viewBox="0 0 24 24" width="22" height="22">
         <circle cx="12" cy="12" r="10" />
@@ -42,7 +42,7 @@ const services = [
   {
     num: '04',
     name: 'Estudios y Mediciones',
-    desc: 'Analisis de calidad de energia, estudios de carga, mediciones de resistencia y termografias para diagnostico y optimizacion.',
+    desc: 'Análisis de calidad de energía, estudios de carga, mediciones de resistencia y termografías para diagnóstico y optimización.',
     icon: (
       <svg viewBox="0 0 24 24" width="22" height="22">
         <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
@@ -53,7 +53,7 @@ const services = [
   {
     num: '05',
     name: 'Mantenimiento',
-    desc: 'Programas de mantenimiento preventivo y correctivo para instalaciones electricas, tableros y equipos, reduciendo tiempos de inactividad.',
+    desc: 'Programas de mantenimiento preventivo y correctivo para instalaciones eléctricas, tableros y equipos, reduciendo tiempos de inactividad.',
     icon: (
       <svg viewBox="0 0 24 24" width="22" height="22">
         <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
@@ -63,8 +63,8 @@ const services = [
   },
   {
     num: '06',
-    name: 'Domotica, Comunicaciones y CCTV',
-    desc: 'Sistemas inteligentes de automatizacion, redes estructuradas, videovigilancia y control de acceso para maxima seguridad y confort.',
+    name: 'Domótica, Comunicaciones y CCTV',
+    desc: 'Sistemas inteligentes de automatización, redes estructuradas, videovigilancia y control de acceso para máxima seguridad y confort.',
     icon: (
       <svg viewBox="0 0 24 24" width="22" height="22">
         <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
@@ -81,7 +81,7 @@ export default function Services() {
       <div className="services-header">
         <div>
           <div className="section-label reveal">Portafolio</div>
-          <h2 className="section-title reveal reveal-delay-1">Soluciones electricas<br />integrales</h2>
+          <h2 className="section-title reveal reveal-delay-1">Soluciones eléctricas<br />integrales</h2>
         </div>
         <p className="section-desc reveal reveal-delay-2" style={{ textAlign: 'right', maxWidth: '300px' }}>
           Tenemos la experiencia y el conocimiento para hacer realidad tu proyecto.

@@ -18,9 +18,9 @@ export default function Contact() {
       <div className="contact-inner">
         <div className="contact-info">
           <div className="section-label reveal">Contacto</div>
-          <h2 className="section-title reveal reveal-delay-1">Cuentanos<br />tu proyecto</h2>
+          <h2 className="section-title reveal reveal-delay-1">Cuéntanos<br />tu proyecto</h2>
           <p className="section-desc reveal reveal-delay-2">
-            Estamos listos para atender tu consulta. Uno de nuestros ingenieros te contactara a la brevedad.
+            Estamos listos para atender tu consulta. Uno de nuestros ingenieros te contactará a la brevedad.
           </p>
           <div className="contact-detail reveal reveal-delay-2">
             <div className="contact-detail-icon">
@@ -29,7 +29,7 @@ export default function Contact() {
               </svg>
             </div>
             <div>
-              <div className="contact-detail-label">Telefono / WhatsApp</div>
+              <div className="contact-detail-label">Teléfono / WhatsApp</div>
               <div className="contact-detail-value"><a href="tel:+573188737324">+57 318 873 7324</a></div>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default function Contact() {
               </svg>
             </div>
             <div>
-              <div className="contact-detail-label">Correo electronico</div>
+              <div className="contact-detail-label">Correo electrónico</div>
               <div className="contact-detail-value">
                 <a href="mailto:rafael.vallejo@rodconsulting.co">rafael.vallejo@rodconsulting.co</a>
               </div>
@@ -55,15 +55,15 @@ export default function Contact() {
               </svg>
             </div>
             <div>
-              <div className="contact-detail-label">Ubicacion</div>
+              <div className="contact-detail-label">Ubicación</div>
               <div className="contact-detail-value">Sabaneta, Antioquia - Colombia</div>
             </div>
           </div>
         </div>
 
         <div className="contact-form-wrap reveal reveal-delay-2">
-          <div className="form-title">Solicitar cotizacion</div>
-          <p className="form-subtitle">Uno de nuestros ingenieros te contactara en menos de 24 horas.</p>
+          <div className="form-title">Solicitar cotización</div>
+          <p className="form-subtitle">Uno de nuestros ingenieros te contactará en menos de 24 horas.</p>
           <form onSubmit={handleSubmit}>
             <div className="form-grid">
               <div className="form-row">
@@ -75,7 +75,7 @@ export default function Contact() {
                 />
               </div>
               <div className="form-row">
-                <label htmlFor="phone">Telefono</label>
+                <label htmlFor="phone">Teléfono</label>
                 <input
                   type="tel" id="phone" name="phone"
                   placeholder="+57 300 000 0000" required
@@ -84,7 +84,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="form-row">
-              <label htmlFor="email">Correo electronico</label>
+              <label htmlFor="email">Correo electrónico</label>
               <input
                 type="email" id="email" name="email"
                 placeholder="correo@empresa.com" required
@@ -95,20 +95,20 @@ export default function Contact() {
               <label htmlFor="service">Tipo de servicio</label>
               <select id="service" name="service" required value={form.service} onChange={handleChange}>
                 <option value="" disabled>Selecciona un servicio</option>
-                <option>Diseno electrico</option>
-                <option>Construccion de instalaciones</option>
-                <option>Consultoria tecnica</option>
+                <option>Diseño eléctrico</option>
+                <option>Construcción de instalaciones</option>
+                <option>Consultoría técnica</option>
                 <option>Estudios y mediciones</option>
                 <option>Mantenimiento</option>
-                <option>Domotica / CCTV / Seguridad</option>
+                <option>Domótica / CCTV / Seguridad</option>
                 <option>Otro</option>
               </select>
             </div>
             <div className="form-row">
-              <label htmlFor="message">Descripcion del proyecto</label>
+              <label htmlFor="message">Descripción del proyecto</label>
               <textarea
                 id="message" name="message"
-                placeholder="Cuentanos sobre tu proyecto: tipo de edificacion, alcance, ubicacion..."
+                placeholder="Cuéntanos sobre tu proyecto: tipo de edificación, alcance, ubicación..."
                 value={form.message} onChange={handleChange}
               />
             </div>

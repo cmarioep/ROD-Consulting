@@ -3,22 +3,22 @@ const projects = [
     src: 'cliente-carlosnieto.png',
     alt: 'Proyecto comercial Carlos Nieto',
     tag: 'Calos Nieto',
-    name: 'Instalacion eléctrica comercial',
+    name: 'Instalación eléctrica comercial',
     delay: '',
   },
 
   {
     src: 'residencial-domotica.png',
-    alt: 'Domotica',
-    tag: 'Domotica',
-    name: 'Automatizacion residencial inteligente',
+    alt: 'Domótica',
+    tag: 'Domótica',
+    name: 'Automatización residencial inteligente',
     delay: 'reveal-delay-1',
   },
   {
     src: '/solar.png',
-    alt: 'Diseño residencial sostenible',
-    tag: 'Diseño residencial sostenible',
-    name: 'Innovacion y compromiso ambiental',
+    alt: 'Diseño sostenible',
+    tag: 'Diseño sostenible',
+    name: 'Innovación y compromiso ambiental',
     delay: 'reveal-delay-2',
   },
 
@@ -26,7 +26,7 @@ const projects = [
     src: '/cliente-mimos.png',
     alt: 'Proyecto comercial Mimos',
     tag: 'Mimos',
-    name: 'Instalacion eléctrica comercial',
+    name: 'Instalación eléctrica comercial',
     delay: '',
   },
   {
@@ -40,7 +40,7 @@ const projects = [
     src: '/cctv.png',
     alt: 'Sistema CCTV',
     tag: 'Seguridad',
-    name: 'Sistema CCTV y control de acceso',
+    name: 'Sistemas CCTV y control de acceso',
     delay: 'reveal-delay-2',
   },
 

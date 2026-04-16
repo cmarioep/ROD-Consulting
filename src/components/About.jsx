@@ -4,14 +4,13 @@ export default function About() {
       <div className="about-inner">
         <div className="about-image-wrap reveal">
           <img src="/about.png" alt="Equipo ROD Consulting" loading="lazy" />
-          <div className="about-image-badge"><strong>10+</strong>Anos liderando<br />proyectos electricos</div>
+          <div className="about-image-badge"><strong>10+</strong>Años liderando<br />proyectos eléctricos</div>
         </div>
         <div className="about-content">
-          <div className="section-label reveal">Quienes somos</div>
-          <h2 className="section-title reveal reveal-delay-1">Ingenieria al nivel<br />del siglo XXI</h2>
+          <div className="section-label reveal">Quiénes somos</div>
+          <h2 className="section-title reveal reveal-delay-1">Ingeniería al nivel<br />del siglo XXI</h2>
           <p className="section-desc reveal reveal-delay-2">
-            En ROD Consulting combinamos rigor tecnico, innovacion y compromiso ambiental para ejecutar proyectos
-            electricos que superan expectativas.
+            En ROD Consulting combinamos rigor técnico, innovación y compromiso ambiental para ejecutar proyectos eléctricos que superan expectativas.
           </p>
           <div className="about-pillars">
             <div className="about-pillar reveal reveal-delay-2">
@@ -23,8 +22,7 @@ export default function About() {
               <div>
                 <div className="pillar-title">Que hacemos</div>
                 <p className="pillar-text">
-                  Disenamos y construimos instalaciones electricas adaptadas a las necesidades particulares de cada
-                  proyecto residencial, comercial e industrial.
+                  Diseñamos y construimos instalaciones eléctricas adaptadas a las necesidades particulares de cada proyecto residencial, comercial e industrial.
                 </p>
               </div>
             </div>
@@ -37,8 +35,7 @@ export default function About() {
               <div>
                 <div className="pillar-title">Nuestro compromiso</div>
                 <p className="pillar-text">
-                  Soluciones eficientes con uso racional de la energia, priorizando el cuidado de los recursos
-                  economicos, humanos y naturales.
+                  Soluciones eficientes con uso racional de la energía, priorizando el cuidado de los recursos económicos, humanos y naturales.
                 </p>
               </div>
             </div>
@@ -54,8 +51,7 @@ export default function About() {
               <div>
                 <div className="pillar-title">Nuestro equipo</div>
                 <p className="pillar-text">
-                  Profesionales altamente calificados que comprometen toda su capacidad creativa y operativa para
-                  alcanzar las metas de nuestros clientes.
+                  Profesionales altamente calificados que comprometen toda su capacidad creativa y operativa para alcanzar las metas de nuestros clientes.
                 </p>
               </div>
             </div>

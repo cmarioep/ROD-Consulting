@@ -29,8 +29,7 @@ export default function Hero() {
           <em>Ingeniería</em>
         </h1>
         <p className="hero-subtitle">
-          Disenamos y construimos instalaciones electricas de alta precision, sostenibles y adaptadas a cada reto &mdash;
-          residencial, comercial e industrial.
+          Diseñamos y construimos instalaciones eléctricas de alta precisión, sostenibles y adaptadas a cada reto — residencial, comercial e industrial.
         </p>
         <div className="hero-actions">
           <a href="https://wa.link/rftxys" className="btn-primary" target="_blank" rel="noopener">
@@ -60,25 +59,25 @@ export default function Hero() {
         </div>
         <div className="hero-stat">
           <div className="hero-stat-num">10+</div>
-          <div className="hero-stat-label">Anos de<br />experiencia</div>
+          <div className="hero-stat-label">Años de<br />experiencia</div>
         </div>
         <div className="hero-stat">
           <div className="hero-stat-num">24/7</div>
-          <div className="hero-stat-label">Soporte<br />tecnico</div>
+          <div className="hero-stat-label">Soporte<br />técnico</div>
         </div>
       </div>
 
       <div className="ticker-wrap" aria-hidden="true">
         <div className="ticker">
           <span>
-            DISENO ELECTRICO <span className="ticker-dot"></span> CONSTRUCCION <span className="ticker-dot"></span>
-            CONSULTORIA TECNICA <span className="ticker-dot"></span> DOMOTICA <span className="ticker-dot"></span> CCTV Y
-            SEGURIDAD <span className="ticker-dot"></span> MANTENIMIENTO <span className="ticker-dot"></span> ESTUDIOS ELECTRICOS
-            <span className="ticker-dot"></span> ENERGIA SOSTENIBLE <span className="ticker-dot"></span> DISENO ELECTRICO <span
-              className="ticker-dot"></span> CONSTRUCCION <span className="ticker-dot"></span> CONSULTORIA TECNICA <span
-              className="ticker-dot"></span> DOMOTICA <span className="ticker-dot"></span> CCTV Y SEGURIDAD <span
-              className="ticker-dot"></span> MANTENIMIENTO <span className="ticker-dot"></span> ESTUDIOS ELECTRICOS <span
-              className="ticker-dot"></span> ENERGIA SOSTENIBLE <span className="ticker-dot"></span>
+            DISEÑO ELÉCTRICO <span className="ticker-dot"></span> CONSTRUCCIÓN <span className="ticker-dot"></span>
+            CONSULTORÍA TÉCNICA <span className="ticker-dot"></span> DOMÓTICA <span className="ticker-dot"></span> CCTV Y
+            SEGURIDAD <span className="ticker-dot"></span> MANTENIMIENTO <span className="ticker-dot"></span> ESTUDIOS ELÉCTRICOS
+            <span className="ticker-dot"></span> ENERGÍA SOSTENIBLE <span className="ticker-dot"></span> DISEÑO ELÉCTRICO <span
+              className="ticker-dot"></span> CONSTRUCCIÓN <span className="ticker-dot"></span> CONSULTORÍA TÉCNICA <span
+                className="ticker-dot"></span> DOMÓTICA <span className="ticker-dot"></span> CCTV Y SEGURIDAD <span
+                  className="ticker-dot"></span> MANTENIMIENTO <span className="ticker-dot"></span> ESTUDIOS ELECTRICOS <span
+                    className="ticker-dot"></span> ENERGÍA SOSTENIBLE <span className="ticker-dot"></span>
           </span>
         </div>
       </div>
