@@ -6,14 +6,14 @@ const projects = [
     name: 'Instalación eléctrica comercial',
     delay: '',
   },
-
   {
-    src: 'residencial-domotica.png',
-    alt: 'Domótica',
-    tag: 'Domótica',
-    name: 'Automatización residencial inteligente',
-    delay: 'reveal-delay-1',
+    src: '/cctv.png',
+    alt: 'Sistema CCTV',
+    tag: 'Seguridad',
+    name: 'Sistemas CCTV y control de acceso',
+    delay: 'reveal-delay-2',
   },
+
   {
     src: '/solar.png',
     alt: 'Diseño sostenible',
@@ -21,7 +21,6 @@ const projects = [
     name: 'Innovación y compromiso ambiental',
     delay: 'reveal-delay-2',
   },
-
   {
     src: '/cliente-mimos.png',
     alt: 'Proyecto comercial Mimos',
@@ -37,13 +36,12 @@ const projects = [
     delay: 'reveal-delay-1',
   },
   {
-    src: '/cctv.png',
-    alt: 'Sistema CCTV',
-    tag: 'Seguridad',
-    name: 'Sistemas CCTV y control de acceso',
-    delay: 'reveal-delay-2',
+    src: 'residencial-domotica.png',
+    alt: 'Domótica',
+    tag: 'Domótica',
+    name: 'Automatización residencial inteligente',
+    delay: 'reveal-delay-1',
   },
-
 ]
 
 function GalleryCard({ p }) {
